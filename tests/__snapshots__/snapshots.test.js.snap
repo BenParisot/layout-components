@@ -24,3 +24,15 @@ exports[`Dog component renders a Dog 1`] = `
   </dd>
 </dl>
 `;
+
+exports[`Header component renders a Header 1`] = `
+<Fragment>
+  <img
+    alt="Ben Parisot logo"
+    src="../assets/BenParisot-bw-vert-logo-WARM.jpg"
+  />
+  <h1>
+    Ben Parisot's Dogs
+  </h1>
+</Fragment>
+`;
