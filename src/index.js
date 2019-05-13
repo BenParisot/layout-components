@@ -1,5 +1,4 @@
-//append a ul
-//append an li with 'spot', 'rover', 'bingo', 'joe'
+import styles from './index.css';
 
 const rootNode = document.getElementById('root');
 const headerNode = document.getElementById('header');
@@ -7,7 +6,7 @@ const headerNode = document.getElementById('header');
 const heading = document.createElement('h1');
 heading.textContent = 'These are my dogs yo';
 headerNode.appendChild(heading);
-
+heading.className = styles.heading;
 const list = document.createElement('ul');
 const dogNames = [
   'Spot',
