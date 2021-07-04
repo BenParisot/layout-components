@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dog component renders a Dog 1`] = `
+<dl>
+  <dt>
+    Name
+  </dt>
+  <dd>
+    Joe
+  </dd>
+  <dt>
+    Age
+  </dt>
+  <dd>
+    5
+     years
+  </dd>
+  <dt>
+    Weight
+  </dt>
+  <dd>
+    90
+     lbs
+  </dd>
+</dl>
+`;
+
+exports[`Header component renders a Header 1`] = `
+<Fragment>
+  <img
+    alt="Ben Parisot logo"
+    src="../assets/BenParisot-bw-vert-logo-WARM.jpg"
+  />
+  <h1>
+    Ben Parisot's Dogs
+  </h1>
+</Fragment>
+`;
